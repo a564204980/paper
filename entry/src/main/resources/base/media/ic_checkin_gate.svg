@@ -1,0 +1,27 @@
+<svg viewBox="0 0 180 240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cyberGate" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4ADE80" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 投影 -->
+  <ellipse cx="90" cy="225" rx="80" ry="10" fill="#000000" opacity="0.5" />
+
+  <!-- 值机安检闸机主柱 (圆角科技框架) -->
+  <rect x="15" y="35" width="20" height="185" rx="7" fill="url(#cyberGate)" stroke="#4ADE80" stroke-width="1.5" />
+  <rect x="145" y="35" width="20" height="185" rx="7" fill="url(#cyberGate)" stroke="#4ADE80" stroke-width="1.5" />
+
+  <!-- 顶部 Cyber 全息控制显示屏 -->
+  <rect x="5" y="10" width="170" height="34" rx="8" fill="#020617" stroke="#4ADE80" stroke-width="2" />
+  <rect x="9" y="14" width="162" height="26" rx="5" fill="#4ADE80" opacity="0.2" />
+  <text x="90" y="32" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="900" fill="#4ADE80" text-anchor="middle">GATE 01 · 安检通道</text>
+
+  <!-- 扫码光效 -->
+  <line x1="20" y1="95" x2="160" y2="95" stroke="#4ADE80" stroke-width="5" stroke-linecap="round" />
+  <rect x="20" y="95" width="140" height="40" fill="#4ADE80" opacity="0.12" />
+
+  <!-- 地面通行绿色指示箭头 -->
+  <polygon points="90,130 108,150 98,150 98,185 82,185 82,150 72,150" fill="#4ADE80" opacity="0.85" />
+</svg>

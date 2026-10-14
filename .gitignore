@@ -1,0 +1,18 @@
+.hvigor/
+.idea/
+oh_modules/
+build/
+*.hap
+*.app
+*.hsp
+*.p12
+*.p7b
+*.cer
+*.pem
+/build-profile.json5
+# Local device captures and diagnostic artifacts.
+/*.jpeg
+/*.jpg
+/*.png
+/*.json
+/video_frames/

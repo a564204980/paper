@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none">
+  <!-- 1. 核心圆润加号 (微向左下避让，线条扎实圆润) -->
+  <path d="M10 6v12M4 12h12" stroke="#0284C7" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- 2. 右上角灵感四芒星微光 (Sparkle) -->
+  <path d="M18 3c0 1.6 1.4 3 3 3-1.6 0-3 1.4-3 3 0-1.6-1.4-3-3-3 1.6 0 3-1.4 3-3z" fill="#0284C7"/>
+  
+  <!-- 3. 微小次生灵感星点 -->
+  <circle cx="21" cy="11" r="0.9" fill="#0284C7"/>
+</svg>

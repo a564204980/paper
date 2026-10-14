@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "Paper entry module"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "Paper Ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "Paper"
+    }
+  ]
+}

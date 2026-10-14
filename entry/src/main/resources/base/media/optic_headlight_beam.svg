@@ -1,0 +1,57 @@
+﻿<svg width="220" height="240" viewBox="0 0 220 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 1. 左大灯纯白LED强光锥径向渐变 (圆心在左车灯: cx=98, cy=220) -->
+    <radialGradient id="leftBeamGrad" cx="98" cy="220" r="220" fx="98" fy="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1.0" />
+      <stop offset="15%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.65" />
+      <stop offset="70%" stop-color="#F8FAFC" stop-opacity="0.30" />
+      <stop offset="90%" stop-color="#E2E8F0" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0" />
+    </radialGradient>
+
+    <!-- 2. 右大灯纯白LED强光锥径向渐变 (圆心在右车灯: cx=122, cy=220) -->
+    <radialGradient id="rightBeamGrad" cx="122" cy="220" r="220" fx="122" fy="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1.0" />
+      <stop offset="15%" stop-color="#FFFFFF" stop-opacity="0.9" />
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.65" />
+      <stop offset="70%" stop-color="#F8FAFC" stop-opacity="0.30" />
+      <stop offset="90%" stop-color="#E2E8F0" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0" />
+    </radialGradient>
+
+    <!-- 3. 前方地面纯白漫反射照亮光池 (圆心在 cx=110, cy=115) -->
+    <radialGradient id="ambientGroundPool" cx="110" cy="115" rx="80" ry="115" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.75" />
+      <stop offset="30%" stop-color="#FFFFFF" stop-opacity="0.55" />
+      <stop offset="65%" stop-color="#F8FAFC" stop-opacity="0.25" />
+      <stop offset="90%" stop-color="#E2E8F0" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.0" />
+    </radialGradient>
+
+    <!-- 4. 车头灯珠出射点耀斑 -->
+    <radialGradient id="bulbGlint" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1.0" />
+      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="1.0" />
+      <stop offset="75%" stop-color="#E0F2FE" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#BAE6FD" stop-opacity="0.0" />
+    </radialGradient>
+  </defs>
+
+  <!-- 1. 前方地面纯白漫反射光池 -->
+  <ellipse cx="110" cy="115" rx="80" ry="115" fill="url(#ambientGroundPool)" />
+
+  <!-- 2. 左大灯主扇形纯白强光锥 -->
+  <path d="M98 220 L25 15 C48 10, 85 10, 108 15 Z" fill="url(#leftBeamGrad)" />
+
+  <!-- 3. 右大灯主扇形纯白强光锥 -->
+  <path d="M122 220 L112 15 C135 10, 172 10, 195 15 Z" fill="url(#rightBeamGrad)" />
+
+  <!-- 4. 左右大灯核心聚光纯白光束 -->
+  <path d="M98 220 L48 25 C62 20, 78 20, 92 25 Z" fill="#FFFFFF" opacity="0.6" />
+  <path d="M122 220 L128 25 C142 20, 158 20, 172 25 Z" fill="#FFFFFF" opacity="0.6" />
+
+  <!-- 5. 车头大灯出射点光晕 -->
+  <circle cx="98" cy="220" r="10" fill="url(#bulbGlint)" />
+  <circle cx="122" cy="220" r="10" fill="url(#bulbGlint)" />
+</svg>
